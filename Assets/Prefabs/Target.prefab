@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3339072954179336672}
   - component: {fileID: 3339072954179336676}
   - component: {fileID: 42297438186503761}
+  - component: {fileID: 8229214828735974977}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -125,3 +126,17 @@ MonoBehaviour:
   scoreAmount: 0
   timeAmount: 0
   explosionPrefab: {fileID: 0}
+--- !u!114 &8229214828735974977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339072954179336675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47af3168550784e3a932e53789748764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitAfterSeconds: 10
+  exitAnimationSeconds: 1
